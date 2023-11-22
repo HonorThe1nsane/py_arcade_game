@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="tiles" tilewidth="384" tileheight="1248" tilecount="3" columns="0" tilerendersize="grid">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="224" height="336" source="../../../Downloads/Retro-Lines-16x16/With-Background/Enemies.png"/>
+  </tile>
+  <tile id="1">
+   <image width="384" height="1248" source="../../../Downloads/Retro-Lines-16x16/With-Background/Environment.png"/>
+  </tile>
+  <tile id="2">
+   <image width="112" height="224" source="../../../Downloads/Retro-Lines-16x16/With-Background/Player.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="platforms" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAHAAfQAAE=
+  </data>
+ </layer>
+</map>

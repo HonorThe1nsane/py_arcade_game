@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="turkey_world" tilewidth="640" tileheight="640" tilecount="38" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_6.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_7.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_8.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_9.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_10.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_11.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_12.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_13.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_14.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_15.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_16.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_17.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_18.png"/>
+  </tile>
+  <tile id="18">
+   <image width="640" height="640" source="../../../Downloads/PixelArt_Tiles-pack/tiles8/tiles8/tiles8_sheet.png"/>
+  </tile>
+  <tile id="19">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_1.png"/>
+  </tile>
+  <tile id="20">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_2.png"/>
+  </tile>
+  <tile id="21">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_3.png"/>
+  </tile>
+  <tile id="22">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_4.png"/>
+  </tile>
+  <tile id="23">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_5.png"/>
+  </tile>
+  <tile id="24">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_6.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_7.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="64" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_8.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_9.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_10.png"/>
+  </tile>
+  <tile id="29">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_11.png"/>
+  </tile>
+  <tile id="30">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_12.png"/>
+  </tile>
+  <tile id="31">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_13.png"/>
+  </tile>
+  <tile id="32">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_14.png"/>
+  </tile>
+  <tile id="33">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_15.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_16.png"/>
+  </tile>
+  <tile id="35">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_17.png"/>
+  </tile>
+  <tile id="36">
+   <image width="128" height="128" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_18.png"/>
+  </tile>
+  <tile id="37">
+   <image width="640" height="640" source="../../../Downloads/PixelArt_Tiles-pack/tiles12/tiles12/tiles12_sheet.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="platform" width="25" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612773,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612773,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610612764,
+0,0,0,0,0,0,0,0,0,0,0,0,0,18,18,18,18,0,0,0,0,0,0,0,1610612764,
+0,0,0,0,0,0,0,0,0,0,0,0,18,37,37,37,37,18,0,0,0,0,0,0,1610612764,
+18,18,18,18,18,18,18,18,18,18,18,18,37,37,37,37,37,37,18,18,18,18,18,18,28,
+37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,
+37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37,37
+</data>
+ </layer>
+</map>
