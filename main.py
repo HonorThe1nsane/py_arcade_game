@@ -1,7 +1,7 @@
 import arcade
 
 
-# Add this class to represent a pushable item
+# Class to represent a pushable item
 class PushableItem(arcade.Sprite):
     def __init__(self, filename, scale):
         super().__init__(filename, scale=scale)
@@ -28,6 +28,7 @@ PLAYER_MASS = 2.0
 class MyGame(arcade.Window):
     def __init__(self):
         super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE, resizable=True)
+        #  Set background color
         arcade.set_background_color(arcade.color.DARK_SLATE_GRAY)
         self.tile_map = None
         self.scene = None
@@ -35,9 +36,10 @@ class MyGame(arcade.Window):
         self.physics_engine = None
         self.camera_sprites = None
         self.camera_gui = None
-        self.score = 0
+        # self.score = 0 not using scoring for right now
         self.left_key_down = False
         self.right_key_down = False
+        # Create pushable item
         self.pushable_item = None
 
     def setup(self):
@@ -58,16 +60,20 @@ class MyGame(arcade.Window):
         if self.tile_map.background_color:
             arcade.set_background_color(self.tile_map.background_color)
 
-        self.score = 0
+        # self.score = 0 not doing a score right now
+
+        # Loads up resource from arcade library for box and the character you control
 
         src = ":resources:images/animated_characters/male_adventurer/maleAdventurer_idle.png"
         self.player_sprite = arcade.Sprite(src, CHARACTER_SCALING)
+        # Centers sprite at 128px
         self.player_sprite.center_x = 128
         self.player_sprite.center_y = 128
         self.scene.add_sprite("Player", self.player_sprite)
-
+        # box item sprite pulled form arcade resources
         pushable_item_src = ":resources:images/tiles/boxCrate_double.png"
         self.pushable_item = PushableItem(pushable_item_src, TILE_SCALING)
+        # center the image so it was above the the map platforms
         self.pushable_item.center_x = 350
         self.pushable_item.center_y = 350
         self.scene.add_sprite("PushableItem", self.pushable_item)
@@ -77,9 +83,12 @@ class MyGame(arcade.Window):
         )
 
     def on_draw(self):
+        # need to draw the regular sprites first otherwise the character goes behinf the item
         self.clear()
         self.camera_sprites.use()
         self.scene.draw()
+
+        # draw the character
 
         self.camera_sprites.use()
         self.player_sprite.draw()
@@ -87,6 +96,7 @@ class MyGame(arcade.Window):
         self.camera_gui.use()
 
     def update_player_speed(self):
+        # set character chagne to 0
         self.player_sprite.change_x = 0
 
         if self.left_key_down and not self.right_key_down:
@@ -95,6 +105,7 @@ class MyGame(arcade.Window):
             self.player_sprite.change_x = PLAYER_MOVEMENT_SPEED
 
     def on_key_press(self, key, modifiers):
+        # Gives user the arrow or kes or WASD keys to press.
         if key == arcade.key.UP or key == arcade.key.W:
             if self.physics_engine.can_jump():
                 self.player_sprite.change_y = PLAYER_JUMP_SPEED
@@ -116,7 +127,7 @@ class MyGame(arcade.Window):
             self.right_key_down = False
             self.update_player_speed()
             self.pushable_item.change_x = 0
-
+# Make sure the camera is centered on the player position
     def center_camera_to_player(self):
         screen_center_x = self.player_sprite.center_x - (
             self.camera_sprites.viewport_width / 2
