@@ -4,7 +4,7 @@ This is the bones and structures of a platforming game I am currently developing
 I wanted to start with a simple game that supports user input and interaction
 with one item in the level. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video] https://youtu.be/QwUQ_Q8hrIY
 
 # Development Environment
 
