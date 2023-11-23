@@ -32,3 +32,4 @@ http://opengameart.org/
 * Move the camera out a little bit more to have a better look
 * Create movement animation with my character
 * I also want to develop a full game with mutliple characters and levels
+* Need to fix camera position and create a bigger map for this level
